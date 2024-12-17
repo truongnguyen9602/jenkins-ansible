@@ -1,0 +1,9 @@
+---
+all:
+  hosts:
+    localhost:
+      ansible_connection: local
+      ansible_python_interpreter: /home/datn24112024/jenkins-ansible/venv/bin/python
+      ansible_become_user: root
+      ansible_become_password: 123456 # add --ask-become-pass to show enter password
+      hostname: vtn-012
